@@ -18,10 +18,11 @@ app.use(
 
 // API route
 app.get("/api/message", (req, res) => {
-  res.json({ message: "Hello from chaicode server" });
+  res.json({ message: "Hello from server" });
 });
 
 const PORT = 4000;
 app.listen(PORT, "0.0.0.0", () =>
   console.log(`Server is running at http://localhost:${PORT}`)
 );
+
