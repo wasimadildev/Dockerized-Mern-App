@@ -1,6 +1,6 @@
 # Dockerized MERN Practice Project
 
-This repository is a practice project for a Dockerized MERN (MongoDB, Express.js, React, Node.js) application. The goal of this project is to demonstrate how to set up a full-stack application using Docker to containerize both the backend and frontend components.
+This repository is a practice project for a Dockerized MERN (Postgres, Express.js, React, Node.js) application. The goal of this project is to demonstrate how to set up a full-stack application using Docker to containerize both the backend and frontend components.
 
 ## Project Structure
 
@@ -9,7 +9,7 @@ The project is organized into the following main directories:
 - **backend**: Contains the server-side code, including API routes, controllers, and models.
 - **frontend**: Contains the client-side code, built with React.
 - **postgres**: Contains initialization scripts for setting up the Postgres database.
-- **docker-compose.yml**: Defines the services for the application, including the backend, frontend, and MongoDB.
+- **docker-compose.yml**: Defines the services for the application, including the backend, frontend, and Postgres.
 
 ## Features
 
@@ -23,7 +23,7 @@ The project is organized into the following main directories:
   - Renders components and handles routing.
 
 - **Docker**: 
-  - Each component (backend, frontend, and MongoDB) is containerized using Docker.
+  - Each component (backend, frontend, and Postgres) is containerized using Docker.
   - Simplifies the development and deployment process.
 
 ## Getting Started
