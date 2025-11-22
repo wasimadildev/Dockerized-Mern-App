@@ -15,7 +15,7 @@ The project is organized into the following main directories:
 
 - **Backend**: 
   - Built with Node.js and Express.js.
-  - Connects to a MongoDB database.
+  - Connects to a Postgres database.
   - Implements RESTful API endpoints.
 
 - **Frontend**: 
