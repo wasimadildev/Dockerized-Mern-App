@@ -1,0 +1,35 @@
+docker images
+docker ps
+docker ps -a
+docker build -t name .
+docker run -p host:container name
+docker stop <id>
+docker rm <id>
+docker exec -it <id> bash
+docker logs <id>
+docker pull image
+docker push image
+docker system prune
+
+docker-compose up
+docker-compose down
+docker-compose build
+docker-compose ps
+docker-compose logs
+docker-compose exec service bash
+docker-compose restart service
+docker-compose stop service
+docker-compose rm service
+docker-compose pull
+docker-compose push
+docker-compose scale service=num
+docker-compose config
+docker-compose run service command
+docker-compose -f custom-file.yml up
+
+
+docker build -t react-client .
+docker build -t express-server .
+
+docker run -p 4000:4000 express-server
+docker run -p 5174:3000 react-client
