@@ -8,7 +8,7 @@ The project is organized into the following main directories:
 
 - **backend**: Contains the server-side code, including API routes, controllers, and models.
 - **frontend**: Contains the client-side code, built with React.
-- **mongo**: Contains initialization scripts for setting up the MongoDB database.
+- **postgres**: Contains initialization scripts for setting up the Postgres database.
 - **docker-compose.yml**: Defines the services for the application, including the backend, frontend, and MongoDB.
 
 ## Features
