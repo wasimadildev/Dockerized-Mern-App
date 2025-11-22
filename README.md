@@ -45,7 +45,7 @@ To get started with this project, follow these steps:
    docker-compose up --build
    ```
 
-4. Access the application in your web browser at `http://localhost:3000`.
+4. Access the application in your web browser at `[http://localhost:3000](http://localhost:5174/)`.
 
 ## Contributing
 
